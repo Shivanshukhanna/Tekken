@@ -1,0 +1,41 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: black;
+}
+.menu span{
+  font-weight: 600;
+  color: #e6e2d3;
+  padding: 20px;
+}
+.heading{
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  color: #ffffff;
+  letter-spacing: 6px;
+  padding-top: 80px;
+}
+.menu{
+  color: #c4b7a6;
+  text-align: center;
+  margin:20px;
+  padding-top: 20px;
+}
+.menu h2{
+  padding: 7px;
+  font-size: 30px;
+}
+.menu a{
+  color: #c4b7a6;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: #c4b7a6;
+  font-size: 20px;
+}
+.menu h3{
+  padding: 5px;
+}

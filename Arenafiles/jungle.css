@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin:0;
+}
+body{
+  background-image: url("https://twistedsifter.files.wordpress.com/2013/05/animated-gifs-of-fighting-game-backgrounds-10.gif?w=800&h=367");
+  background-size:cover;
+}
+.health-bar{
+  float: left;
+  position: relative;
+  width: 200px;
+  height: 30px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.health-bar-fill{
+  height: 100%;
+  background:#59ea63;
+  transition: width 0.5s;
+}
+.health-bar-value{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display:flex ;
+  align-items:center;
+  justify-content: center;
+  font-weight: bold;
+}
+.health-bar2{
+  float: right;
+  position: relative;
+  width: 200px;
+  height: 30px;
+  border: 2px solid black;
+  margin: 10px;
+  }
+
+.health-bar2-fill{
+  height: 100%;
+  background:#59ea63;
+  transition: width 0.5s;
+}
+.health-bar2-value{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display:flex ;
+  align-items:center;
+  justify-content: center;
+  font-weight: bold;
+}
